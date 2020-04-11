@@ -5,7 +5,16 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
 
-gem 'sqlite3', '~> 1.3.0'
+gem 'sqlite3', '~> 1.3.0', group: [:development, :test]
+
+#use postgresql at the database for production
+group :production do 
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
+gem "actionview", ">= 5.0.1.rc1"
+
 
 
 # Use Puma as the app server
