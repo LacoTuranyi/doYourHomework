@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Coder manual Project Application
+Subscription-based web application
+
 Test if uploaded to GitHub
 
 Things you may want to cover:
