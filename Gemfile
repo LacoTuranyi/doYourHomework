@@ -16,7 +16,7 @@ end
 
 gem "actionview", ">= 5.0.1.rc1"
 
-
+gem "font-awesome-rails"
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
