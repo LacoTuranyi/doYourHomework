@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   #resources :posts
-  
+  resources :contacts
   get '/about' => 'pages#about'
   root 'pages#home'
   #root 'posts#index'
